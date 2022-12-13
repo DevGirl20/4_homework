@@ -1,0 +1,109 @@
+h1{
+	font-size:25px;
+	font-family: 'Open Sans', sans-serif;
+	padding:20px 20px 0 20px;
+	text-align: center;
+}
+.form_first{
+	width: 500px;
+	height: 700px;
+	background: url("../img/bg_blue.jpeg") no-repeat ;*/
+/*or*/;
+/*background-color: rgba(156, 29, 247, 0.71);*/
+}
+
+.div_all{
+padding: 20px 0 0 20px;
+font-family: 'Open Sans', sans-serif;
+}
+.input_all{
+font-family: 'Open Sans', sans-serif;
+width: 200px;
+height: 30px;
+}
+.name_text{
+margin-left: 122px;
+}
+.email_text{
+margin-left: 163px;
+}
+.password_text{
+margin-left: 146px;
+}
+.password_text_again{
+margin-left: 88px;
+}
+.gender_input_male{
+margin-left: 166px;
+margin-top: 5px;
+}
+.gender_input_female{
+margin-left: 40px;
+}
+.age_text{
+margin-left: 186px;
+}
+.course_text{
+margin-left: 172px;
+}
+.adress_text{
+margin-left: 97px;
+}
+.clean_button{
+margin-top: 40px;
+margin-left: 25px;
+}
+
+
+
+/*                                    form 2                       */
+.form_extra{
+background: url("../img/bg_purple.jpeg") no-repeat ;
+width: 500px;
+height: 700px;
+}
+.photo_text{
+margin-left: 80px;
+}
+.phone_text{
+margin-left: 147px;
+}
+#favcolor{
+margin-left: 73px;
+width: 210px;
+height: 40px;
+}
+#birthday{
+margin-left: 148px;
+}
+#birthday{
+margin-left: 76px;
+}
+#birthday_max{
+margin-left: 17px;
+}
+#birthday_min{
+margin-left: 101px;
+}
+#bputdate{
+margin-left: 74px;
+}
+.div_click_me{
+padding-left: 130px;
+}
+.click_me_text{
+width: 200px;
+margin-top: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="form_first">
+<h1>Заповни форму</h1>
+
+<form action="#" method="get">
+<!-- під розміри 1440/880 адаптивна верстка в мене не хромає, а взагалі не ходить)) тому викручувалась через margin -->
+
+<!--                      робила через спани, потім згадала про лейбли нижче є приклади             -->
+
+	<!--                                     ім'я                                            -->
+	<div class="name_div div_all">
+			<span>Повне ім'я</span>
+			<input class="input_all name_text" type="text" name="username" tabindex="1" placeholder="Введіть Ваше ім'я">
+</div>
+<!--                                         email                                           -->
+	<div class="email_div div_all">
+			<span>Email</span>
+			<input class="input_all email_text" type="email" name="username" tabindex="2" placeholder="Введіть Вашу почту">
+</div>
+
+<!--                                         пароль                                           -->
+	<div class="password_div div_all">
+			<span>Пароль</span>
+			<input class="input_all password_text" type="password" name="username" tabindex="3" placeholder="Введіть Ваш пароль">
+</div>
+<!--                                    пароль ще раз                                               -->
+	<div class="password_div_again div_all">
+			<span>Пароль ще раз</span>
+			<input class="input_all password_text_again" type="password" name="username" tabindex="3" placeholder="Введіть Ваш пароль">
+</div>
+<!--                                         стать                                           -->
+	<div class="gender_div div_all">
+			<span class="">Стать</span>
+			<input class="gender_input_male" type="radio" name="gender" value="male" tabindex="5">Чоловіча
+			<input class="gender_input_female" checked type="radio" name="gender" value="female" tabindex="6" >Жіноча
+</div>
+<!--                                         вік                                           -->
+	<div class="age_div div_all">
+			<span>Вік</span>
+			<input class="input_all age_text" type="number" name="username" tabindex="7">
+</div>
+<!--                                         курс                                        -->
+<div class="course_div div_all">
+			<span>Курс</span>
+				<select class="course_text" name="course_text"tabindex="8">
+
+					<option class="input_all" selected>.=Виберіть курс=.</option>
+					<option class="input_all" value="frontend">Front-End </option>
+					<option class="input_all" value="backend">Back-End </option>
+					<option class="input_all" value="pm">Project Management</option>
+					<option class="input_all" value="qa">QA</option>
+
+				</select>
+</div>
+<!--                                         повна адреса                                 -->
+	<div class="adress_div div_all">
+		<span>Повна адреса:</span>
+		<textarea class="input_all adress_text" placeholder="Країна, регіон, місто/селище, вулиця" name="text" tabindex="9"></textarea>
+	</div>
+<!--                                        погодження з умовами                                       -->
+	<div class="condition_div div_all">
+		<input checked type="checkbox" name="condition" value="yes" tabindex="10"> Я погоджуюсь з обробкою персональних даних
+	</div>
+<!--                                          очистити                                         -->
+	<div class="button_div div_all">
+		<button class="clean_button input_all" type="reset" tabindex="11">Очистити форму</button>
+<!--                                          очистити                                         -->
+		<button class="send_button input_all" type="submit" tabindex="12">Зареєструватися</button>
+</div>
+
+</form>
+</div>
+<!--                                          екстра                                           -->
+<!--                                          фото                                             -->
+
+<br><br><br>
+<div class="form_extra">
+	<h1>Якщо хочеш знижку, заповни форму екстра:)</h1>
+<form action="#" method="get">
+<div class="div_all photo_div">
+		<span>Прикріпити фото</span>
+		<input class="photo_text" type="file" tabindex="13" name="userphoto">
+</div>
+<!--                                          телефон                                             -->
+<div class="div_all phone_div">
+	<span>Телефон</span>
+	<input class="input_all phone_text" type="tel" name="userphone" tabindex="14" placeholder="Введіть Ваш номер телефону">
+</div>
+<!--                                          колір                                             -->
+<div class="div_all color_div">
+<label for="favcolor">Вибери свій <br>улюблений колір:</label>
+<input type="color" id="favcolor" name="favcolor">
+</div>
+<!--                                      День Нарождення                                             -->
+<div class="div_all birthday_div">
+<label for="birthday">Вибери свою <br>дату народження:</label>
+<input class="input_all" type="date" id="birthday" name="birthday">
+</div>
+<!--                                 День Нарождення максимум                                          -->
+<div class="div_all bd_mx_div">
+<label for="birthday_max">Введи Дату Нарождення<br> починаючи з: 1980-01-01:</label>
+<input class="input_all" type="date" id="birthday_max" name="birthday_max" max="1979-12-31">
+</div>
+<!--                                 День Нарождення мінімум                                          -->
+<div class="div_all bd_mn_div">
+<label for="birthday_min">Веди Дату Народження<br> до: 2000-01-01:</label>
+<input class="input_all" type="date" id="birthday_min" name="birthday_min" min="2000-01-02">
+</div>
+<div class="div_all bd_putdate_div">
+<label for="bputdate">Вибери свою <br>Дату Народження<br>(день, місяць, рік):</label>
+<input class="input_all" type="datetime-local" id="bputdate" name="bputdate">
+</div>
+<!--                                       кнопка з інпутом                                             -->
+<div class="div_all div_click_me">
+<input class="click_me_text" type="button" onclick="alert('Твоя знижка в 15% активована')" value="Отримати знижку">
+</div>
+	
+		</form>
+</div>
+
+
+
+
+
+
+
+</div>
+</body>
+</html>
